@@ -15,35 +15,33 @@
         <script src="./script.js" defer></script>
       </head>
 <body>
-
-      <!-- header -->
-  <header class="px-4 sm:mt-4 relative z-10">
-    <div class="container mx-auto flex items-center justify-between">
-      <!-- hamburger menu -->
-      <img class="hamburger-menu w-8 sm:hidden absolute top-6 left-6 cursor-pointer"
-        src="./images/icons/icon-hamburger.svg" alt="">
-      <!-- logo -->
-      <a href="/">
-        <h1 class="w-fit absolute sm:static top-6 left-0 right-0 mx-auto sm:mx-0 text-3xl font-bold text-orange-800">UEC</h1>
-      </a>
-      <!-- <img class="w-24 absolute sm:static top-0 left-0 right-0 mx-auto sm:mx-0" src="./images/logo-transparent.png"
-          alt=""> -->
-      <!-- nav links -->
-      <nav class="main-nav hidden sm:block w-full sm:w-auto sm:mt-0 mx-4">
-        <ul
-          class="flex items-center gap-4 sm:gap-8 md:gap-16 flex-col sm:flex-row w-4/5 mx-auto sm:w-auto px-4 bg-orange-800 text-white   font-bold rounded-md py-4 absolute sm:static top-20 left-0 right-0">
-          <li class="hover:text-black hover:border-b-2 hover:border-black"><a href="./index.html">Home</a></li>
-          <li class="hover:text-black hover:border-b-2 hover:border-black"><a href="./about.html">About</a></li>
-          <li class=" hover:border-b-2 hover:border-black hover:text-white"><a href="./notifications.html">notifications</a></li>
-          <li class="hover:text-black hover:border-b-2 hover:border-black"><a href="./contact.html">Contact</a></li>
-        </ul>
-      </nav>
-      <!-- phone number -->
-      <a class="absolute sm:static top-6 right-6" href="tel:+921234567890"><img class='w-8'
-          src="./images/icons/icon-phone.svg" alt=""></a>
-    </div>
-  </header>
-
+<!-- header -->
+<header class="px-4 sm:mt-4 relative z-10 items-center  ">
+  <div class="container mx-auto flex items-center justify-between ">
+    <!-- hamburger menu -->
+    <img class="hamburger-menu w-8 sm:hidden absolute top-6 left-6 cursor-pointer"
+      src="./images/icons/icon-hamburger.svg" alt="">
+    <!-- logo -->
+    <a href="/">
+      <img class="w-20 hidden sm:flex" src="./images/logo-transparent.png" alt="">
+    </a>
+    <!-- <img class="w-24 absolute sm:static top-0 left-0 right-0 mx-auto sm:mx-0" src="./images/logo-transparent.png"
+        alt=""> -->
+    <!-- nav links -->
+    <nav class="main-nav hidden sm:block w-full sm:w-auto sm:mt-0 mx-4 fixed top-0 left-0 right-0">
+      <ul
+        class="flex bg-white items-center gap-4 sm:gap-8 md:gap-16 flex-col sm:flex-row w-4/5 mx-auto sm:w-auto px-4  text-black   font-bold rounded-md py-4 absolute sm:static top-20 left-0 right-0">
+        <li class="hover:text-black hover:border-b-2 hover:border-black"><a href="./index.html">Home</a></li>
+        <li class="hover:text-black hover:border-b-2 hover:border-black"><a href="./about.html">About</a></li>
+          <li class="hover:text-black hover:border-b-2 hover:border-black"><a href="./notifications.html">notifications</a></li>
+        <li class="hover:text-black hover:border-b-2 hover:border-black"><a href="./contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <!-- phone number -->
+    <a class="absolute sm:static top-6 right-6" href="tel:+921234567890"><img class='w-8'
+        src="./images/icons/icon-phone.svg" alt=""></a>
+  </div>
+</header>
 
 
 
@@ -184,29 +182,30 @@
 
 
  <!-- footer -->
- <section class="bg-gray-700   ">
+ <section class="bg-gray-700 brightness-200  ">
+  <h1 class="w-full h-1 my-10"></h1>
   <p class="bg-black h-0.5"></p>
   <div class="  sm:grid grid-flow-col grid-cols-3  items-center p-8 px-12 py-20 sm:py-24 ">
     <div class="relative">
       <h1 class="font-bold uecfont text-2xl text-center  text-white">United Engineer's Consultants</h1>
-      <p class="tracking-widest text-center text-xl text-orange-400 mt-1">best Practice of designing</p>
+      <p class="tracking-widest text-center text-xl text-black mt-1">best Practice of designing</p>
     </div>
 
    
 
     <div class=" text-center">
-      <ul class="text-white space-y-5   ">
-        <li><span class=" text-orange-400 font-bold">Call</span><br> +92-342-961-7934</li>
-        <li><span class="text-orange-400 font-bold">Email</span><br> uec@gmail.com</li>
-        <li><span class="text-orange-400 font-bold">Address</span><br> City Center Phase III Near Neshat Store Qambar Swat</li>
+      <ul class="text-white space-y-5  mt-5 sm:mt-0  ">
+        <li><span class=" text-black font-bold">Call</span><br> +92-342-961-7934</li>
+        <li><span class="text-black font-bold">Email</span><br> uec@gmail.com</li>
+        <li><span class="text-black font-bold">Address</span><br> City Center Phase III Near Neshat Store Qambar Swat</li>
       
       </ul>
     </div>
 
     <div class=" flex flex-row mt-5 sm:mt-0 sm:flex sm:flex-col mx-auto gap-6 justify-center">
-     <a  href=""><img class="w-10 rounded-full hover:brightness-50 ring ring-orange-400 ring-offset-2 " src="./images/facebook.png" alt=""></a>
-     <a  href=""><img class="w-10 rounded-full hover:brightness-50 ring ring-orange-400 ring-offset-2 " src="./images/linkedin.png" alt=""></a>
-     <a  href=""><img class="w-10 rounded-full hover:brightness-50 ring ring-orange-400 ring-offset-2" src="./images/twiter.png" alt=""></a>
+     <a  href=""><img class="w-10 rounded-full hover:brightness-50 ring ring-blue-800 ring-offset-2 " src="./images/facebook.png" alt=""></a>
+     <a  href=""><img class="w-10 rounded-full hover:brightness-50 ring ring-blue-800 ring-offset-2 " src="./images/linkedin.png" alt=""></a>
+     <a  href=""><img class="w-10 rounded-full hover:brightness-50 ring ring-blue-800 ring-offset-2" src="./images/twiter.png" alt=""></a>
     </div>
   </div>
 
@@ -218,11 +217,11 @@
     <li class=" hover:border-b-2 hover:border-black hover:text-white"><a href="./contact.html">Contact</a></li>
     </ul>
   </div>
+
   <div class="text-center bg-black text-gray-500 p-2 text-sm">
     <p><i>2020 UEC . All Rights Reserved</i></p>
-    <p><i>Developed By</i> <span class="text-orange-400">Bilal Ahad</span></p>
+    <p><i>Developed By</i> <span class="text-black">Bilal Ahad</span></p>
   </div>
-</section>  
-  
+</section> 
 </body>
 </html>
